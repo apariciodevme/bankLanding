@@ -8,14 +8,18 @@ import { navLinks } from "@/utils/constants";
 
 import { Poppins } from "next/font/google";
 
-const poppins = Poppins({ subsets: ['latin'], weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'] })
-
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
 
 const Navbar = () => {
   const [toggle, settoggle] = useState(false);
 
   return (
-    <header className={`flex items-center justify-between w-full py-6 px-8 lg:px-20  ${poppins.className}`}>
+    <header
+      className={`flex items-center justify-between w-full py-6 px-8 lg:px-20  ${poppins.className}`}
+    >
       <Image src={logo} alt="logo" width={100} height={32} />
 
       <nav className="items-center hidden sm:flex ">
@@ -40,12 +44,12 @@ const Navbar = () => {
           onClick={() => settoggle((prev) => !prev)}
         />
 
-              {/*   Sidebar  */}
+        {/*   Sidebar  */}
 
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          } p-6 bg-black-gradient absolute z-50 top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl bg-gradient-to-b from-neutral-900 to-black`}
+          } p-6  absolute z-50 top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl  bg-gradient-to-b from-slate-800 to-slate-950`}
         >
           <nav className="flex flex-col items-center justify-end flex-1 ">
             {navLinks.map((nav, index) => (

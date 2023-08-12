@@ -10,7 +10,6 @@ export default function Home() {
       <CardDeal />
       <Testimonials />
       <Business/>
-      <CardDeal/>
       <CTA/>
       <Footer/>
     </main>

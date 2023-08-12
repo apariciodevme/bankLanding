@@ -5,7 +5,7 @@ import { quotes } from "@/public/assets";
 const Testimonials = () => {
   return (
     <section className="relative flex flex-col items-center w-full p-10 ">
-      <div className="z-50 flex items-center justify-between mb-20 space-x-20 ">
+      <div className="z-50 flex flex-col items-center justify-between mb-20 space-y-10 md:space-y-0 md:space-x-20 md:flex-row ">
         {/*Text div*/}
         <div className="">
           <h1 className="text-4xl font-semibold leading-normal lg:leading-relaxed lg:text-5xl text-neutral-100">
@@ -13,7 +13,7 @@ const Testimonials = () => {
           </h1>
         </div>
         <div>
-          <p className="text-sm leading-normal text-left lg:text-base w-96 text-neutral-400">
+          <p className="text-base leading-normal text-center md:text-left w-96 text-neutral-400">
             Everything you need to accept card payments and grow your business
             anywhere on the planet.
           </p>
@@ -21,7 +21,7 @@ const Testimonials = () => {
       </div>
       {/*end*/}
 
-      <div className="grid items-center grid-cols-3 grid-rows-1 gap-5 ">
+      <div className="grid items-center gap-5 md:grid-rows-1 md:grid-cols-3 ">
         {feedback.map((item) => (
           <div
             key={item.id}

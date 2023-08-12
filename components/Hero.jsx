@@ -9,7 +9,7 @@ const Hero = () => {
       
       {/*left*/}
       <div className="p-6 lg:p-16">
-        <div className="relative flex flex-row items-center px-4 mb-5 lg:px-6 lg:py-2 w-sm lg:max-w-xl bg-gradient-to-r from-stone-900 to-black rounded-xl">
+        <div className="relative flex-row items-center hidden px-4 mb-5 lg:flex lg:px-6 lg:py-2 w-sm lg:max-w-xl bg-gradient-to-r from-slate-800 to-slate-950 rounded-xl">
           <Image
             src={discount}
             width={32}

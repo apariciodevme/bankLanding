@@ -2,13 +2,15 @@ import React from "react";
 
 const CTA = () => {
   return (
-    <section className="flex flex-col items-center w-full p-10">
-      <div className="flex items-center justify-between w-4/5 h-64 p-10 bg-gradient-to-tr from-zinc-950 via-zinc-900 to-zinc-600 rounded-2xl">
-
-        <div className="flex flex-col items-start p-4 space-y-8">
-          <h1 className="text-4xl">Sign up and try our service!</h1>
-          <p className="text-sm lg:text-base text-neutral-400">
-            Everything you need to accept card payments <br /> and grow your
+    <section className="flex flex-col items-center w-full ">
+      <div className="flex flex-col items-start p-10 space-y-4 lg:w-3/5 lg:bg-gradient-to-tr from-zinc-950 via-zinc-900 to-zinc-600 rounded-2xl lg:flex-row ">
+        
+        <div className="flex-col items-start mb-3 space-y-5 md:mb-0">
+          <h1 className="max-w-md text-4xl font-medium leading-normal text-neutral-100">
+            Sign up and try our service!
+          </h1>
+          <p className="max-w-sm text-sm text-left text-neutral-400 md:w-80">
+            Everything you need to accept card payments and grow your
             business from anywhere on the planet.
           </p>
         </div>

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="grid w-full grid-cols-5 gap-20 p-10 bg-neutral-950 ">
+    <div className="grid w-full grid-cols-2 gap-20 p-10 lg:grid-cols-5 bg-neutral-950">
       {/*1*/}
       <div className="items-start col-span-2 space-y-5 ">
         <Image src={logo} width={240} height={240} alt="logo" />
