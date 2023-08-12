@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="grid w-full grid-cols-2 gap-20 p-10 lg:grid-cols-5 bg-neutral-950">
       {/*1*/}
       <div className="items-start col-span-2 space-y-5 ">
-        <Image src={logo} width={240} height={240} alt="logo" />
+        <Image src={logo} width={160} height={32} alt="logo" />
         <p className="text-base w-60 text-neutral-300">
           A new way to ake the payments easy, reliable and secure
         </p>

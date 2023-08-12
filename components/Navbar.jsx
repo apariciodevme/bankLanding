@@ -20,7 +20,7 @@ const Navbar = () => {
     <header
       className={`flex items-center justify-between w-full py-6 px-8 lg:px-20  ${poppins.className}`}
     >
-      <Image src={logo} alt="logo" width={100} height={32} />
+      <Image src={logo} alt="logo" width={160} height={32} />
 
       <nav className="items-center hidden sm:flex ">
         {navLinks.map((nav, index) => (
