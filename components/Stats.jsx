@@ -6,8 +6,8 @@ const Stats = () => {
 
       {stats.map((item) => (
         <div className="flex flex-row items-center space-x-5" key={item.id}>
-          <h1 className="text-3xl">{item.value}</h1>
-          <p className="text-sm text-transparent uppercase bg-clip-text bg-gradient-to-r from-cyan-500 via-cyan-300 to-cyan-100">
+          <h1 className="text-3xl lg:text-4xl">{item.value}</h1>
+          <p className="text-sm text-transparent uppercase lg:text-lg bg-clip-text bg-gradient-to-r from-cyan-500 via-cyan-300 to-cyan-100">
             {item.title}
           </p>
           <div className="w-[1.8px] h-3 bg-gray-400 hidden " />

@@ -9,7 +9,7 @@ const Hero = () => {
       
       {/*left*/}
       <div className="p-6 lg:p-16">
-        <div className="relative flex flex-row items-center max-w-sm px-4 mb-5 bg-gradient-to-r from-stone-900 to-black rounded-xl">
+        <div className="relative flex flex-row items-center px-4 mb-5 lg:px-6 lg:py-2 w-sm lg:max-w-xl bg-gradient-to-r from-stone-900 to-black rounded-xl">
           <Image
             src={discount}
             width={32}
@@ -18,18 +18,18 @@ const Hero = () => {
             className="object-contain"
           />
 
-          <p className="ml-2 text-xs text-gray-400">
+          <p className="ml-2 text-xs text-gray-400 lg:text-base">
             <span className="text-white">20%</span> Discount for {""}
             <span className="text-white">3 months</span> on your new account
           </p>
 
         </div>
-        <h1 className="text-5xl font-semibold leading-tight text-center text-gray-100 md:text-start lg:text-6xl whitespace-nowrap lg:w-96 md:leading-snug ">
+        <h1 className="text-5xl font-semibold leading-tight text-center text-gray-100 lg:leading-relaxed md:text-start lg:text-6xl whitespace-nowrap lg:w-96 ">
           The Next <br />{" "}
           <span className="text-transparent bg-gradient-to-r from-sky-400 to-sky-200 bg-clip-text ">
             Generation
           </span>{" "}
-          <br /> Payment Method.
+          <br /> Payment method.
         </h1>
         <p className="mt-5 text-sm leading-relaxed text-center text-gray-300 md:max-w-sm sm:max-w-md md:text-left">
           Our team of experts uses a methodology Lorem ipsum dolor sit amet
@@ -43,8 +43,8 @@ const Hero = () => {
       <div className="right-0 md:flex">
         <Image
           src={robot}
-          width={500}
-          height={500}
+          width={600}
+          height={600}
           alt="robotic hand holding cards"
           className="relative z-50"
         />
